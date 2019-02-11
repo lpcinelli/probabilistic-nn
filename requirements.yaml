@@ -1,0 +1,18 @@
+name: probmodels
+channels:
+  - pytorch
+  - defaults
+  - conda-forge
+dependencies:
+  - python-telegram-bot=11.1.0
+  - visdom=0.1.8.8
+  - python=3.7.2
+  - scikit-learn=0.20.2
+  - seaborn=0.9.0
+  - pytorch=1.0.0
+  - jupyter=1.0.0
+  - fastai=1.0.42
+  - pip:
+    - pyro-ppl==0.3.0
+    - torchnet==0.0.4
+    - bayesian-optimization==1.0.0

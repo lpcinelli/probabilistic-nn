@@ -1,0 +1,3 @@
+[submodule "bayesnn"]
+	path = bayesnn
+	url = https://github.com/lpcinelli/bayesnn
